@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <title>EagleMON</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="images/logo.svg">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="blue.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+<?php
+include 'basic.php';
+start();
+language();
+headline();
+?>
+
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -23,14 +16,7 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="about.html">ABOUT US</a></li>
-                    <li><a href="products.html">PRODUCTS</a></li>
-                    <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#pricing">PRICING</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
+              <?php menu("HOME"); ?>
             </div>
         </div>
     </nav>
@@ -38,14 +24,6 @@
     <div class="jumbotron text-center">
         <img src="images/logo.svg" class="img-rounded" alt="EagleMON">
         <p>We specialize in Monitoring</p>
-        <form>
-            <div class="input-group">
-                <input type="email" class="form-control" size="50" placeholder="Email Address" required>
-                <div class="input-group-btn">
-                    <button type="button" class="btn btn-danger">Subscribe</button>
-                </div>
-            </div>
-        </form>
     </div>
 
     <!-- Container (About Section) -->
@@ -239,14 +217,14 @@
             <div class="col-sm-4 col-xs-12">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <h1>EagleMON U01</h1>
+                        <h1>EM-1044</h1>
                     </div>
                     <div class="panel-body">
-                        <p><strong>20</strong> Lorem</p>
-                        <p><strong>15</strong> Ipsum</p>
-                        <p><strong>5</strong> Dolor</p>
-                        <p><strong>2</strong> Sit</p>
-                        <p><strong>Endless</strong> Amet</p>
+                        <p><strong>4ch</strong> SPDT Relay outputs, 10A per channel</p>
+                        <p><strong>2ch</strong> Voltage Inputs, 12bit, 0…5V Range</p>
+                        <p><strong>2ch</strong> Current Inputs, 12bit, 0..20mA Range</p>
+                        <p><strong>4ch</strong> isolated digital inputs, 3..24V input range</p>
+                        <p><strong>RS-485</strong> communication interface</p>
                     </div>
                     <div class="panel-footer">
                         <h3>$19</h3>
@@ -350,12 +328,7 @@ To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 
-    <footer class="container-fluid text-center">
-        <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>
-        <p>Bootstrap Theme Made By <a href="http://www.eaglemon.com" title="Visit w3schools">WWW.EagleMON.COM</a></p>
-    </footer>
+<?php footer(); ?>
 
     <script>
         $(document).ready(function() {

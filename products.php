@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+include 'menu.php';
+?>
 <html lang="en">
 
 <head>
@@ -22,18 +25,12 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
                 <a class="navbar-brand" href="#myPage"><img src="images/logo_s.svg" alt="Mountain View"></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#products">PRODUCTS</a></li>
-                    <li><a href="#services">SERVICES</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#pricing">PRICING</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
+                <?php menu("PRODUCTS"); ?>
             </div>
         </div>
     </nav>
