@@ -21,22 +21,93 @@ headline();
         </div>
     </nav>
 
-    <div class="jumbotron text-center">
+    <div id="home" class="jumbotron text-center">
         <img src="images/logo.svg" class="img-rounded" alt="EagleMON">
         <p>We specialize in Monitoring</p>
     </div>
 
-    <!-- Container (About Section) -->
+
+
+
+    <!-- Container (Products Section) -->
     <div id="products" class="container-fluid">
-        <div class="row">
-            <div class="col-sm-8">
-                <h2>About Company Page</h2><br>
-                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <br><button class="btn btn-default btn-lg">Get in Touch</button>
+        <div class="text-center">
+            <h2>Our Products</h2>
+        </div>
+        <div class="row slideanim">
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>EM-1044</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>4ch</strong> SPDT Relay outputs, 10A per channel</p>
+                        <p><strong>2ch</strong> Voltage Inputs, 12bit, 0…5V Range</p>
+                        <p><strong>2ch</strong> Current Inputs, 12bit, 0..20mA Range</p>
+                        <p><strong>4ch</strong> Isolated digital inputs, 3..24V input range</p>
+                        <p><strong>RS-485</strong> ModBUS RTU master</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$160</h3>
+                        <button class="btn btn-lg">Technical Specification</button>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-signal logo"></span>
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>EM-T08</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>8ch</strong>Termocouple Inputs</p>
+                        <p><strong>Type</strong> J, K, E, N, S, R, B, T</p>
+                        <p><strong>Voltage</strong> -10,1...81,4 mV</p>
+                        <p><strong>RS-485</strong> ModBUS RTU slave</p>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$60</h3>
+                        <button class="btn btn-lg">Technical Specification</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Premium</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>100</strong> Lorem</p>
+                        <p><strong>50</strong> Ipsum</p>
+                        <p><strong>25</strong> Dolor</p>
+                        <p><strong>10</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$49</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Premium</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>100</strong> Lorem</p>
+                        <p><strong>50</strong> Ipsum</p>
+                        <p><strong>25</strong> Dolor</p>
+                        <p><strong>10</strong> Sit</p>
+                        <p><strong>Endless</strong> Amet</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$49</h3>
+                        <h4>per month</h4>
+                        <button class="btn btn-lg">Sign Up</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -214,7 +285,7 @@ headline();
             <h4>Choose a payment plan that works for you</h4>
         </div>
         <div class="row slideanim">
-            <div class="col-sm-4 col-xs-12">
+            <div class="col-sm-3 col-xs-12">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
                         <h1>EM-1044</h1>
@@ -223,36 +294,53 @@ headline();
                         <p><strong>4ch</strong> SPDT Relay outputs, 10A per channel</p>
                         <p><strong>2ch</strong> Voltage Inputs, 12bit, 0…5V Range</p>
                         <p><strong>2ch</strong> Current Inputs, 12bit, 0..20mA Range</p>
-                        <p><strong>4ch</strong> isolated digital inputs, 3..24V input range</p>
-                        <p><strong>RS-485</strong> communication interface</p>
+                        <p><strong>4ch</strong> Isolated digital inputs, 3..24V input range</p>
+                        <p><strong>RS-485</strong> ModBUS RTU master</p>
                     </div>
                     <div class="panel-footer">
-                        <h3>$19</h3>
-                        <h4>per month</h4>
-                        <button class="btn btn-lg">Sign Up</button>
+                        <h3>$160</h3>
+                        <button class="btn btn-lg">Technical Specification</button>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 col-xs-12">
+            <div class="col-sm-3 col-xs-12">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
-                        <h1>Pro</h1>
+                        <h1>EM-T08</h1>
                     </div>
                     <div class="panel-body">
-                        <p><strong>50</strong> Lorem</p>
-                        <p><strong>25</strong> Ipsum</p>
-                        <p><strong>10</strong> Dolor</p>
-                        <p><strong>5</strong> Sit</p>
+                        <p><strong>8ch</strong>Termocouple Inputs</p>
+                        <p><strong>Type</strong> J, K, E, N, S, R, B, T</p>
+                        <p><strong>Voltage</strong> -10,1...81,4 mV</p>
+                        <p><strong>RS-485</strong> ModBUS RTU slave</p>
+                        <p>&nbsp;</p>
+                    </div>
+                    <div class="panel-footer">
+                        <h3>$60</h3>
+                        <button class="btn btn-lg">Technical Specification</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-xs-12">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h1>Premium</h1>
+                    </div>
+                    <div class="panel-body">
+                        <p><strong>100</strong> Lorem</p>
+                        <p><strong>50</strong> Ipsum</p>
+                        <p><strong>25</strong> Dolor</p>
+                        <p><strong>10</strong> Sit</p>
                         <p><strong>Endless</strong> Amet</p>
                     </div>
                     <div class="panel-footer">
-                        <h3>$29</h3>
+                        <h3>$49</h3>
                         <h4>per month</h4>
                         <button class="btn btn-lg">Sign Up</button>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 col-xs-12">
+            <div class="col-sm-3 col-xs-12">
                 <div class="panel panel-default text-center">
                     <div class="panel-heading">
                         <h1>Premium</h1>
@@ -278,13 +366,16 @@ headline();
     <div id="contact" class="container-fluid bg-grey">
         <h2 class="text-center">CONTACT</h2>
         <div class="row">
-            <div class="col-sm-5">
+          <div class="col-sm-4 slideanim">
+              <div id="googleMap" style="height:400px;width:100%;"></div>
+          </div>
+            <div class="col-sm-4">
                 <p>Contact us and we'll get back to you within 24 hours.</p>
                 <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
                 <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
                 <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
             </div>
-            <div class="col-sm-7 slideanim">
+            <div class="col-sm-4 slideanim">
                 <div class="row">
                     <div class="col-sm-6 form-group">
                         <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -304,7 +395,23 @@ headline();
     </div>
 
     <!-- Add Google Maps -->
-    <div id="googleMap" style="height:400px;width:100%;"></div>
+
+
+<div id="about" class="container-fluid bg-grey">
+  <div class="row">
+      <div class="col-sm-8">
+          <h2>About Us</h2><br>
+          <h4>The EagleMon was founded in 2017 by group of experts with a huge knowledge and experience in industrial applications. Our mission is to provide our customers with IoT products for monitoring and control applications. EagleMon’s products are designed based on our customers’ requests and feedbacks. And we are continuously working and improving our product line</h4>
+          <br/>
+          <button class="btn btn-default btn-lg">Get in Touch</button>
+      </div>
+      <div class="col-sm-4">
+          <span class="glyphicon glyphicon-signal logo"></span>
+      </div>
+  </div>
+</div>
+
+
     <script>
         function myMap() {
             var myCenter = new google.maps.LatLng(40.209874, 44.504059);

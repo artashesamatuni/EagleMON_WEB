@@ -37,13 +37,11 @@ function menu($disable)
 {
 echo "<ul class=\"nav navbar-nav navbar-left\">\n";
 if ($disable!="HOME"){
-echo "<li><a href=\"index.php\">HOME</a></li>\n";
+echo "<li><a href=\"#home\">HOME</a></li>\n";
 }
-if ($disable!="ABOUT US"){
-echo "<li><a href=\"about.html\">ABOUT US</a></li>\n";
-}
+
 if ($disable!="PRODUCTS"){
-echo "<li><a href=\"products.php\">PRODUCTS</a></li>\n";
+echo "<li><a href=\"#products\">PRODUCTS</a></li>\n";
 }
 if ($disable!="SERVICES"){
     echo "<li><a href=\"#services\">SERVICES</a></li>\n";
@@ -57,6 +55,9 @@ if ($disable!="PRICING"){
 if ($disable!="CONTACT"){
     echo "<li><a href=\"#contact\">CONTACT</a></li>\n";
   }
+if ($disable!="ABOUT US"){
+echo "<li><a href=\"#about\">ABOUT US</a></li>\n";
+}
     echo "</ul>\n";
     }
  ?>
